@@ -17,6 +17,9 @@ box.addEventListener('mousedown',()=>{
 box.addEventListener('mouseup',()=>{
     isDown = false
 })
+box.addEventListener('mouseleave',()=>{
+    isDown = false
+})
 
 box.addEventListener('mousemove',(e)=>{
     if(isDown){
